@@ -38,3 +38,63 @@ function renderLicenseBadge(license) {
             return "";
     }
   }
+  // This function to render the license section of README
+function renderLicenseSection(license) {
+    if (!license) {
+        return "";
+    }
+  
+    return `## License:
+    
+    This project is licensed under the ${license} license.
+    
+    ${renderLicenseBadge(license)};
+    ${renderLicenseLink(license)}`
+  }
+  
+  // Function to generate markdown for README
+  function generateMarkdown(data) {
+    return `# ${data.title}
+    
+    ${renderLicenseBadge(data.license)}
+    
+    ## Description
+    ${data.description}
+    
+    ## Table of Contents:
+    * [Description](#description)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Test](#test)
+    * [Contact Me](#contact-me)
+  
+    ## Installation 
+    To install necessary dependencies, run the following command:
+  
+  \`\`\`
+  ${data.installation}
+  \`\`\`
+  
+    ## Usage 
+    ${data.usage}
+    
+    ## Contribution
+    ${data.contribution}
+    
+    ## Test
+    \`\`\`
+    ${data.test}
+    \`\`\`
+    ${renderLicenseSection(data.license)}
+  
+    ## Contact Me
+    Contact me if you have any questions or additional feedback.
+   * Email : ${data.email}. 
+   * Github :[${data.github}](https://github.com/${data.github}).;`
+  }
+  
+  module.exports = generateMarkdown;
+  
+  
