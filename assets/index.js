@@ -76,8 +76,8 @@ const questions = [
         type: "input",
         name: "usage",
         message:  "What was the usage information used to create this project?:",
-          validate: your_usage => {
-            if (your_usage) {
+          validate: my_usage => {
+            if (my_usage) {
                 return true;
     
              } else {
