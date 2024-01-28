@@ -15,7 +15,7 @@ The goal was to create a efficient and fast-pace path to showcase projects on Gi
 - [Contact me](#contact-me)
 
 ## Links
-- [The URL of Github Reppository](https://github.com/kathylopez97/Professional-README-Generator)
+- [The URL of Github Repository](https://github.com/kathylopez97/Professional-README-Generator)
 - [The URL OF the Deployed Application](https://kathylopez97.github.io/Professional-README-Generator/)
 - [Youtube Video Walkthrough](https://www.youtube.com/watch?v=pLm6V9WZeuA)
 
