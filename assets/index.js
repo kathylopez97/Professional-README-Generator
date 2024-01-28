@@ -158,3 +158,31 @@ const questions = [
     }
     },
 ];
+
+//This function create the README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName,data,(err) =>  {
+    if (err) {
+        return console.log(err);
+    }
+    // This console log write the message after complete the array of questions
+    console.log("Great job! Your README file is now generated");
+    
+    });
+    
+    };
+     
+    // This  function to initialize app
+    // initalize means set to the value or put in the condition appropriate to the start of an operation.
+    function init() {
+        inquirer.prompt(questions)
+        .then(function (userInput) {
+            console.log(userInput)
+            writeToFile("README.md", generateMarkdown(userInput));
+        });
+    
+        };
+    
+    // This is function call to initialize app
+    init(); 
+    
