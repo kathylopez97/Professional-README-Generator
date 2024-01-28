@@ -3,7 +3,7 @@
 const inquirer = require(`inquirer`);
 const fs = require(`fs`);
 const generateMarkdown = require('./utils/generateMarkdown.js'); 
-console.log("Welcome to creating your MYREAD generator")
+console.log("Welcome to creating your own Professional READme.md generator")
 console.log ("Follow the next steps to create your own README for your next project!")
 
 // An array of questions for user input to fill out while creating the READMe generator 
@@ -100,8 +100,8 @@ const questions = [
             `Attribution License (BY)`,
             `None of the above`,   
         ],
-        validate: my_license => {
-            if (my_license) {
+        validate: license => {
+            if (license) {
                 return true;
                 
              } else {
@@ -113,10 +113,10 @@ const questions = [
     // Question 7:Contributing 
     {
         type: "input",
-        name: "Contributing",
-        message:"Contributing:",
-        validate: my_contribution => {
-            if (my_contribution) {
+        name: "contributing",
+        message:"contributing:",
+        validate: contributing => {
+            if (contributing) {
                 return true;
 
              } else {
@@ -146,7 +146,7 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message:"What is your email?:",
+        message:"What is your email address?:",
         validate: email_input => {
             if (email_input) {
                 return true;
