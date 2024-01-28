@@ -30,7 +30,7 @@ function renderLicenseLink(license) {
       case "GNU GPL v3":
           return "(https://www.gnu.org/licenses/gpl-3.0)";
       case "Mozilla Public License 2.0":
-          return "(https://oensource.org/licenses/MPL-2.0)";p
+          return "(https://opensource.org/licenses/MPL-2.0)";p
       case "Attribution License (BY)":
           return "(https://opendatacommons.org/licenses/by/)";
           default:
