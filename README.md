@@ -7,8 +7,7 @@ The description of a Professional README.md Generator is to create a non-deploye
 This project creates a visual represenationa and video walkthrough on how to create your own Professional READme generator.
 The goal was to create a efficient and fast-pace path to showcase projects on Github among potential employers.
 ## Table of Contents:
-- [Overview](#overview)
-- [The Challenge](#the-challenge)
+- [Description](#description)
 - [Usage](#usage)
 - [Links](#links)
 - [Installation](#installation)
