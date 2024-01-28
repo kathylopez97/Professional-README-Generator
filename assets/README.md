@@ -1,9 +1,9 @@
-# d
+# Professional README.md Generator
   
-  
+  [![License](https://img.shields.io/badge/license--MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   
   ## Description
-  d
+  to create an efficient and fast pace path README.md generator
   
   ## Table of Contents:
   * [Description](#description)
@@ -19,27 +19,27 @@
   To install necessary dependencies, run the following command:
 
 ```
-d
+npm i inquirer
 ```
   ## Usage 
-  d
+  Youtube
   
   ## Contributing
-  d
+  refer to installation instruction
   
   ## Test
   ```
-  dd
+  npm test
   ```
   ## License:
   
-  This project is licensed under the MIT license.
+  This project is licensed under the Mozilla Public License 2.0 license.
   
-  ;
-  
+  [![License](https://img.shields.io/badge/license--MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0);
+  (https://oensource.org/licenses/MPL-2.0)
 
   ## Contact Me
   
   Contact me if you have any questions or additional feedback.
- * Email : d. 
- * Github :[dd](https://github.com/dd).;
+ * Email : kathyylopezz97@gmail.com. 
+ * Github :[https://github.com/kathylopez97](https://github.com/https://github.com/kathylopez97).;
