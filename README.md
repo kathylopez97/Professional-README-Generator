@@ -10,16 +10,15 @@ The goal was to create a efficient and fast-pace path to showcase projects on Gi
 - [Overview](#overview)
 - [The Challenge](#the-challenge)
 - [Usage](#usage)
+- [Links](#links)
 - [Installation](#installation)
 - [Credits](#credits)
 - [Contact me](#contact-me)
 
-## Mockup 
-
-[The URL of Github Reppository]
-[The URL OF the Deployed Application]
-### YouTube Video Walkthrough:
-[Click Here To Watch]()
+## Links
+- [The URL of Github Reppository](https://github.com/kathylopez97/Professional-README-Generator)
+- [The URL OF the Deployed Application](https://kathylopez97.github.io/Professional-README-Generator/)
+- [Youtube Video Walkthrough](https://www.youtube.com/watch?v=pLm6V9WZeuA)
 
 ## Installation 
 1. Clone the repository: [Professional-README-Generator](https://github.com/kathylopez97/Professional-README-Generator)
@@ -45,7 +44,7 @@ How to create READme.md Generator Instructions:
 ## Credits 
 - Youtube: [Youtube](https://youtube.com)
 - Visual Studio Code: [VS Code](https://code.visualstudio.com/)
-- Professional README Guide: [README.md](https://coding-boot-camp.github.io/full-stack/github/_professional-readme-guide)
+- Professional README Guide: [README.md](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 - Professional  Video Guide Submisson: [VideoGuide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide)
 
 
